@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>mobiletransfer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-165-Copy-19" fill="#D8D8D8" transform="translate(22.000000, 32.000000) rotate(-270.000000) translate(-22.000000, -32.000000) " x="-7" y="16" width="58" height="32" rx="2"></rect>
+        <circle id="Oval-63-Copy-11" fill="#868686" transform="translate(22.000000, 58.000000) rotate(-270.000000) translate(-22.000000, -58.000000) " cx="22" cy="58" r="2"></circle>
+        <rect id="Rectangle-165-Copy-18" fill="#325AA6" transform="translate(22.000000, 30.500000) rotate(-270.000000) translate(-22.000000, -30.500000) " x="-2.5" y="16.5" width="49" height="28" rx="1"></rect>
+        <path d="M26,32 L42,32" id="Line-Copy-442" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <rect id="Rectangle-493" fill="#FF78C7" x="14" y="27" width="11" height="10"></rect>
+        <path d="M42,22 L42,43.023796" id="Line-Copy-441" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M42,22 L52,22" id="Line-Copy-440" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M42,43 L52,43" id="Line-Copy-439" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-176-Copy-6" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" cx="57" cy="22" r="4"></circle>
+        <circle id="Oval-176-Copy-5" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" cx="57" cy="42" r="4"></circle>
+    </g>
+</svg>

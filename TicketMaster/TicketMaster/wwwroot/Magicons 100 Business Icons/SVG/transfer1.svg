@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>transfer1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M26,32 L42,32" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M3,45.0549284 C3,42.8444807 4.78716697,40.8467817 6.96428975,40.5961044 L20,39.0951525 L33.0357102,40.5961044 C35.225127,40.8481973 37,42.8443807 37,45.0549284 L37,52.0525589 L3,52.0525589 L3,45.0549284 Z" id="Rectangle-90-Copy-16" fill="#5B68C0"></path>
+        <path d="M14,33.3690057 C10.9897907,30.5230149 9,25.9141132 9,22.0525589 C9,15.9774266 13.9248678,11.0525589 20,11.0525589 C26.0751322,11.0525589 31,15.9774266 31,22.0525589 C31,25.9141132 29.0102093,30.5230149 26,33.3690057 L26,39.8260128 C26,39.8260128 21.9325778,41.0525589 20,41.0525589 C18.0674222,41.0525589 14,39.8260128 14,39.8260128 L14,33.3690057 Z" id="Combined-Shape-Copy-65" fill="#FFDD95"></path>
+        <circle id="Oval-59-Copy-13" fill="#FFDD95" cx="11" cy="27.0525589" r="3"></circle>
+        <circle id="Oval-59-Copy-12" fill="#FFDD95" cx="29" cy="27.0525589" r="3"></circle>
+        <polygon id="Rectangle-415-Copy-2" fill="#FFFFFF" points="12 39 19.9977085 40.8779297 12 45"></polygon>
+        <polyline id="Rectangle-415-Copy-3" fill="#FFFFFF" points="28.0813495 39 20 40.8508461 28.0813495 45"></polyline>
+        <path d="M42,22 L42,43.023796" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M42,22 L52,22" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M42,43 L52,43" id="Line-Copy-419" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-176" stroke="#979797" stroke-width="2" stroke-linecap="round" cx="57" cy="22" r="4"></circle>
+        <circle id="Oval-176-Copy" stroke="#979797" stroke-width="2" stroke-linecap="round" cx="57" cy="42" r="4"></circle>
+    </g>
+</svg>

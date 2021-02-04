@@ -1,0 +1,42 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Ticket.AnswerTicketBindingModel
+@{
+    ViewData["Title"] = "AnswerTicket";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Answer Ticket</h1>
+
+<form asp-area="Admin" asp-controller="Ticket" asp-action="AnswerTicket" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label> Send Ticket Id:</label>
+        <input asp-for="IdSendTicket" readonly class="form-control"/>
+        <span asp-validation-for="IdSendTicket" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label> Send Ticket Title:</label>
+        <input asp-for="Title" readonly class="form-control"/>
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label> Send on:</label>
+        <input asp-for="SendOn" value="@DateTime.Now" />
+        <span asp-validation-for="SendOn" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label> Author:</label>
+        <input asp-for="AuthorId" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Agent:</label>
+        <input asp-for="AgentId" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Description:</label>
+        <input asp-for="Description" class="form-control"/>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-outline-dark">Answer Ticket</button>
+    <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets"> </a>
+
+</form>

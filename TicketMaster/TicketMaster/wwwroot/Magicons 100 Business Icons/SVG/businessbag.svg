@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>businessbag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-253-Copy-2" stroke="#9F5757" stroke-width="2" stroke-linecap="round" x="22" y="9" width="21" height="11" rx="3"></rect>
+        <path d="M7,16 L58,16 L58,51.0023401 C58,52.657902 56.6620883,54 55.0001194,54 L9.9998806,54 C8.34309229,54 7,52.6475599 7,51.0023401 L7,16 Z" id="Rectangle-270-Copy-3" fill="#9F5757"></path>
+        <path d="M3,16 L62,16 L62,27.9734067 C62,30.1824351 60.2020322,31.9732065 57.9910754,31.9732065 L7.00892456,31.9732065 C4.79485666,31.9732065 3,30.1873717 3,27.9734067 L3,16 Z" id="Rectangle-270-Copy-2" fill="#BD7575"></path>
+        <path d="M18,29 L24,29 L24,32 C24,33.6568542 22.6534829,35 21,35 L21,35 C19.3431458,35 18,33.6534829 18,32 L18,29 Z" id="Rectangle-448" fill="#FFFFFF"></path>
+        <path d="M41,29 L47,29 L47,32 C47,33.6568542 45.6534829,35 44,35 L44,35 C42.3431458,35 41,33.6534829 41,32 L41,29 Z" id="Rectangle-448-Copy" fill="#FFFFFF"></path>
+    </g>
+</svg>

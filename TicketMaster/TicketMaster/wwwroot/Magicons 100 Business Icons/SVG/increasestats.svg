@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>increasestats</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-418" fill="#4796E7" x="15" y="33" width="10" height="23" rx="3"></rect>
+        <rect id="Rectangle-418-Copy" fill="#22BA8E" x="28" y="26" width="10" height="30" rx="3"></rect>
+        <rect id="Rectangle-418-Copy-2" fill="#FFAF40" x="41" y="19" width="10" height="37" rx="3"></rect>
+        <path d="M10.4868562,28.2544738 C10.4868562,28.2544738 29.9645832,22.8690471 40.558199,9.75941372" id="Path-102" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <polygon id="Triangle-18" fill="#E43535" transform="translate(43.131728, 7.131728) rotate(45.000000) translate(-43.131728, -7.131728) " points="43.131728 1.63172798 49.131728 12.631728 37.131728 12.631728"></polygon>
+        <rect id="Rectangle-419" fill="#D8D8D8" x="3" y="58" width="57" height="3"></rect>
+    </g>
+</svg>

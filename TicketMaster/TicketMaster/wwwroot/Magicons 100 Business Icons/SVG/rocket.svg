@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>rocket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.17232543,39 C3.61049228,34.0516792 0,25.3771377 0,18 C0,6.954305 12,0 12,0 C12,0 24,6.954305 24,18 C24,25.3771377 20.3895077,34.0516792 16.8276746,39 L7.17232543,39 Z" id="path-1"></path>
+    </defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Rectangle-439" fill="#5B68C0" points="19 30 30 21 30 38 17 43"></polygon>
+        <polygon id="Rectangle-439-Copy" fill="#5B68C0" transform="translate(40.500000, 32.000000) scale(-1, 1) translate(-40.500000, -32.000000) " points="36 30 47 21 47 38 34 43"></polygon>
+        <g id="Oval-150" transform="translate(20.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#4796E7" xlink:href="#path-1"></use>
+            <ellipse fill="#FF5EAC" mask="url(#mask-2)" cx="12" cy="5" rx="10" ry="5"></ellipse>
+        </g>
+        <circle id="Oval-149" fill="#FFAF40" cx="32" cy="20" r="3"></circle>
+        <rect id="Rectangle-438" fill="#5B68C0" x="27" y="41" width="10" height="4"></rect>
+        <polygon id="Triangle-21" fill="#E43535" points="32 63 27 45 37 45"></polygon>
+    </g>
+</svg>

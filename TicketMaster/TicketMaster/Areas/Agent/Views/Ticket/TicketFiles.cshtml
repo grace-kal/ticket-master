@@ -1,0 +1,57 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Ticket.DisplayAllTicketFilesViewModel
+@{
+    ViewData["Title"] = "TicketFiles";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>Ticket Files</h1>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+
+                        <input type="text" id="myInput" onkeyup="myFunction(0)" class="form-control float-right" placeholder="Search by id...">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>Id</th>
+                            <th>Alt</th>
+                            <th>...</th>
+                            <th>Ticket Id</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var file in Model.Files)
+                        {
+                            <tr>
+                                <td>@file.Id</td>
+                                <td>@file.Alt</td>
+                                <td>@file.FileUpload</td>
+                                <td>@file.TicketId </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>chatbusiness</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M27,54.0023695 C27,51.7919219 28.787167,49.7942228 30.9642898,49.5435455 L44,48.0425936 L57.0357102,49.5435455 C59.225127,49.7956384 61,51.7918218 61,54.0023695 L61,61 L27,61 L27,54.0023695 Z" id="Rectangle-90-Copy-8" fill="#4796E7"></path>
+        <path d="M38,43.3164468 C34.9897907,40.470456 33,35.8615543 33,32 C33,25.9248678 37.9248678,21 44,21 C50.0751322,21 55,25.9248678 55,32 C55,35.8615543 53.0102093,40.470456 50,43.3164468 L50,50 C50,50 45.9325778,51.4486507 44,51.4486507 C42.0674222,51.4486507 38,50 38,50 L38,43.3164468 Z" id="Combined-Shape-Copy-23" fill="#FFDD95"></path>
+        <circle id="Oval-59-Copy-5" fill="#FFDD95" cx="35" cy="37" r="3"></circle>
+        <circle id="Oval-59-Copy-4" fill="#FFDD95" cx="53" cy="37" r="3"></circle>
+        <path d="M13.375,30 L38.9976004,30 C40.1037214,30 41,29.1059106 41,28.0029953 L41,5.99700466 C41,4.89497885 40.1034952,4 38.9976004,4 L6.00239962,4 C4.89627863,4 4,4.89408944 4,5.99700466 L4,28.0029953 C4,29.1050211 4.89650485,30 6.00239962,30 L9,30 L9,35 L13.375,30 Z" id="Combined-Shape" fill="#80D25B"></path>
+        <circle id="Oval-159" fill="#BD7575" cx="14" cy="17" r="2"></circle>
+        <circle id="Oval-159-Copy" fill="#BD7575" cx="23" cy="17" r="2"></circle>
+        <circle id="Oval-159-Copy-2" fill="#BD7575" cx="32" cy="17" r="2"></circle>
+    </g>
+</svg>

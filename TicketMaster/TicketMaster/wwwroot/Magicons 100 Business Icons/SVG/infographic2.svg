@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>infographic2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9,60 L51.0475921,60" id="Line-Copy-407" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M33,3.1432976 C47.7259943,4.55740123 59.4425988,16.2740057 60.8567024,31 L33,31 L33,3.1432976 Z" id="Combined-Shape-Copy-73" fill="#D650C7"></path>
+        <path d="M30,7 C15.0883118,7 3,19.0883118 3,34 C3,48.9116882 15.0883118,61 30,61 C44.9116882,61 57,48.9116882 57,34 L30,34 L30,7 Z" id="Combined-Shape-Copy-74" fill="#FFAF40"></path>
+        <path d="M55.6347166,16.5630147 C50.5848403,9.15338773 42.4063544,4.04656835 33,3.1432976 L33,30.9862389 L55.6347166,16.5630147 Z" id="Combined-Shape" fill="#325AA6"></path>
+    </g>
+</svg>

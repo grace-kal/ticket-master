@@ -1,0 +1,36 @@
+﻿@model TicketMaster.Models.Ticket
+@{
+    ViewData["Title"] = "TicketAnswerTicket";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>Ticket Answer Ticket</h1>
+<div class="text-danger">@ViewBag.NotAnswered</div>
+<form>
+    <div class="form-group">
+        <label>Id: </label>
+        <input asp-for="Id" readonly />
+    </div>
+    <div class="form-group">
+        <label>Send Ticket Id: </label>
+        <input asp-for="TicketId" readonly />
+    </div>
+    <div class="form-group">
+        <label>Send On: </label>
+        <input asp-for="SendOn" readonly />
+    </div>
+    <div class="form-group">
+        <label>Description: </label>
+        <input asp-for="Descripton" readonly />
+    </div>
+    <div class="form-group">
+        <label>Agent:</label>
+        <input asp-for="AgentId" readonly />
+    </div>
+    <div class="form-group">
+        <label>Author: </label>
+        <input asp-for="AuthorId" readonly />
+    </div>
+    <a asp-area="Agent" asp-controller="Ticket" asp-action="MySendTickets" asp-route-id="@User.Identity.Name">Back to list</a>
+</form>
+

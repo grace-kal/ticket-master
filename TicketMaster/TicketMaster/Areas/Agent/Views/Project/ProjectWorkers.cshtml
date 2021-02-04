@@ -1,0 +1,81 @@
+﻿@model TicketMaster.Areas.Agent.ViewModels.Project.ProjectWorkersViewModel
+@{
+    ViewData["Title"] = "ProjectWorkers";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>Project Workers</h1>
+
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+
+                        <input type="text" id="myInput" onkeyup="myFunction(0)" class="form-control float-right" placeholder="Search by username...">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>Username</th>
+                            <th>Company</th>
+                            <th>Email</th>
+                            <th>Email Confirmation</th>
+                            <th>Projects</th>
+                            <th>Answered Tickets</th>
+                            <th>Send Tickets</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var worker in Model.Workers)
+                        {
+                            <tr>
+                                <td>@worker.UserName</td>
+                                <td>Id:@worker.CompanyId</td>
+                                <td>@worker.Email</td>
+                                @if (worker.EmailConfirmed)
+                                {
+                                    <td class="text-success">Email Confirmed </td>
+                                }
+                                else
+                                {
+                                    <td class="text-danger">Email Not Confirmed </td>
+                                }
+                                <td> <button class="btn btn-outline-dark" asp-area="#" asp-controller="#" asp-action="#" asp-route-id="#">Projects(@worker.Projects.Count()) </button></td>
+                                <td> <button class="btn btn-outline-dark" asp-area="#" asp-controller="#" asp-action="#" asp-route-id="#">Answered Tickets(@worker.AnsweredTickets.Count()) </button></td>
+                                <td> <button class="btn btn-outline-dark" asp-area="#" asp-controller="#" asp-action="#" asp-route-id="#"> Send Tickets(@worker.SendTickets.Count()) </button></td>
+                                @if (worker.IsDelete == false)
+                                {
+                                    <td class=" tag table-success">Active User</td>
+                                }
+                                else
+                                {
+                                    <td class="tag table-danger"> Unactive User</td>
+                                }
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+<a asp-area="Agent" asp-controller="Project" asp-action="MyProjects" asp-route-id="@User.Identity.Name">Back </a>
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}

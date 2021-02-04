@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>transfer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-32" fill="#5B68C0" x="6" y="9" width="54" height="33"></rect>
+        <rect id="Rectangle-33" fill="#BD7575" x="3" y="5" width="60" height="4" rx="2"></rect>
+        <rect id="Rectangle-33-Copy" fill="#BD7575" x="3" y="42" width="60" height="4" rx="2"></rect>
+        <rect id="Rectangle-34" fill="#9D4C4C" x="31" y="46" width="4" height="11"></rect>
+        <rect id="Rectangle-35" fill="#BD7575" x="27" y="55" width="12" height="4"></rect>
+        <path d="M15.1728731,15.1103083 L22.0420129,21.9794481" id="Path-99" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M15.1728731,21.9794481 L22.0420129,15.1103083" id="Path-99-Copy" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M43.1728731,29.1103083 L50.0420129,35.9794481" id="Path-99-Copy-3" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M43.1728731,35.9794481 L50.0420129,29.1103083" id="Path-99-Copy-2" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M27.0015074,17.3334683 C27.0015074,17.3334683 37.0998593,13.1615352 45.3267598,22.625465" id="Path-100" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+        <polyline id="Path-101" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="41.65544 23.9382882 45.5354266 22.7391557 46.9231078 18.9775384"></polyline>
+    </g>
+</svg>

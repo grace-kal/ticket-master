@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>maledenie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7,50.9206814 C7,48.707202 8.77500008,46.6994337 10.9692715,46.4356406 L30.875,44.0425936 L50.7807285,46.4356406 C52.9728966,46.6991808 54.75,48.7006188 54.75,50.9206814 L54.75,63.0425936 L7,63.0425936 L7,50.9206814 Z" id="Rectangle-90-Copy-25" fill="#5B68C0"></path>
+        <path d="M22.9659091,41.0820517 C18.997906,37.3171352 16.375,31.2233999 16.375,26.1331692 C16.375,18.1250403 22.8668711,11.6331692 30.875,11.6331692 C38.8831289,11.6331692 45.375,18.1250403 45.375,26.1331692 C45.375,31.2233999 42.752094,37.3171352 38.7840909,41.0820517 L38.7840909,49.9058965 C38.7840909,49.9058965 33.4224889,51.8154815 30.875,51.8154815 C28.3275111,51.8154815 22.9659091,49.9058965 22.9659091,49.9058965 L22.9659091,41.0820517 Z" id="Combined-Shape-Copy-81" fill="#FFDD95"></path>
+        <circle id="Oval-34-Copy-11" fill="#FFDD95" cx="16.875" cy="29" r="3"></circle>
+        <circle id="Oval-34-Copy-10" fill="#FFDD95" cx="44.875" cy="29" r="3"></circle>
+        <path d="M12.875,14.5 C12.875,11.4624339 15.3328519,9 18.3759961,9 L44.875,9 L44.875,14.5 C44.875,17.5375661 42.4171481,20 39.3740039,20 L12.875,20 L12.875,14.5 Z" id="Rectangle-91-Copy-7" fill="#FFAF40" transform="translate(28.875000, 14.500000) scale(-1, 1) translate(-28.875000, -14.500000) "></path>
+        <circle id="Oval-160-Copy-3" fill="#E43535" cx="52" cy="12" r="11"></circle>
+        <path d="M48,8 L56.5146932,16.5146932" id="Path-127" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M48.1348059,16.2221058 L56.6494991,7.70741257" id="Path-127-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+</svg>

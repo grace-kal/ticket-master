@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>calendartransfer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Rectangle-248" fill="#B4DFFB" points="4 18 60 18 60 57 4 57"></polygon>
+        <path d="M44,7 L60,7 L60,21 L4,21 L4,7 L21,7 L21,12.007983 C21,13.0998238 21.897616,14 23.0048815,14 L23.9951185,14 C25.1061002,14 26,13.1081436 26,12.007983 L26,7 L39,7 L39,12.007983 C39,13.0998238 39.897616,14 41.0048815,14 L41.9951185,14 C43.1061002,14 44,13.1081436 44,12.007983 L44,7 Z" id="Combined-Shape" fill="#0A3586"></path>
+        <rect id="Rectangle" fill="#9F5757" x="22" y="2" width="3" height="11" rx="1.5"></rect>
+        <rect id="Rectangle-Copy" fill="#9F5757" x="40" y="2" width="3" height="11" rx="1.5"></rect>
+        <path d="M32,40 L32,26" id="Line-Copy-448" stroke="#595959" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M12,41 L12,35.9999433 L12,35.9999433 C12,33.7908356 13.7964248,32 16.0000255,32 L47.9999745,32 C50.2091276,32 52,33.7996535 52,35.9999433 L52,41" id="Rectangle-495-Copy" stroke="#595959" stroke-width="2" stroke-linecap="round"></path>
+        <rect id="Rectangle-496-Copy-5" fill="#80D25B" x="7" y="41" width="10" height="9"></rect>
+        <rect id="Rectangle-496-Copy-4" fill="#80D25B" x="47" y="41" width="10" height="9"></rect>
+        <rect id="Rectangle-496-Copy-3" fill="#80D25B" x="27" y="41" width="10" height="9"></rect>
+    </g>
+</svg>

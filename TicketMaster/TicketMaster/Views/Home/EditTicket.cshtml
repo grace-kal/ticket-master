@@ -1,0 +1,41 @@
+﻿@model TicketMaster.Models.EditTicketBindingModel
+@{
+    ViewData["Title"] = "EditTicket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit Ticket</h1>
+
+<form enctype="multipart/form-data" asp-area="" asp-controller="Home" asp-action="EditTicket" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" readonly class="form-control" />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SendOn"></label>
+        <input asp-for="SendOn" type="datetime" readonly class="form-control" />
+        <span asp-validation-for="SendOn" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Upload Files:</label>
+        <input type="file" asp-for="FilesToUpload" multiple />
+        <span asp-validation-for="FilesToUpload" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Edit Ticket</button>
+    <a asp-area="" asp-controller="Home" asp-action="Index" >Back to list </a>
+
+</form>

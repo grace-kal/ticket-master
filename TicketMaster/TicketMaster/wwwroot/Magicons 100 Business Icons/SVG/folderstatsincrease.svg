@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>folderstatsincrease</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M31,14 L59.0040626,14 C60.6586731,14 62,15.3424683 62,16.995507 L62,50.004493 C62,51.6588658 60.6626903,53 59.0040626,53 L4.99593743,53 C3.34132688,53 2,51.6575317 2,50.004493 L2,16 L2,13.0016655 C2,11.3438914 3.34312337,10 5.00793008,10 L24.9920699,10 C26.6533038,10 28.8091867,11.0789156 29.8001978,12.4002638 L31,14 Z" id="Combined-Shape" fill="#DFCC00"></path>
+        <circle id="Oval-165" fill="#5B68C0" cx="10" cy="45" r="2"></circle>
+        <circle id="Oval-165-Copy" fill="#5B68C0" cx="22" cy="33" r="2"></circle>
+        <circle id="Oval-165-Copy-2" fill="#5B68C0" cx="34" cy="39" r="2"></circle>
+        <circle id="Oval-165-Copy-3" fill="#5B68C0" cx="45" cy="25" r="2"></circle>
+        <circle id="Oval-165-Copy-4" fill="#5B68C0" cx="57" cy="25" r="2"></circle>
+        <polyline id="Path-129" stroke="#5B68C0" stroke-width="2" stroke-linecap="round" points="10.1971595 44.8680359 22.1773381 33.0117946 34.0045864 39.0643304 45.1372761 25.0858624 57.0786392 25.0858624"></polyline>
+    </g>
+</svg>

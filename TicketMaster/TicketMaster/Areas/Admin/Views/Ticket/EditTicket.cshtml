@@ -1,0 +1,77 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Ticket.EditTicketBindingModel
+@{
+    ViewData["Title"] = "EditTicket";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Edit Ticket</h1>
+<form enctype="multipart/form-data" asp-area="Admin" asp-controller="Ticket" asp-action="EditTicket" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" readonly class="form-control" />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" readonly class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SendOn"></label>
+        <input asp-for="SendOn" type="datetime" readonly class="form-control" />
+        <span asp-validation-for="SendOn" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Author:</label>
+        <input asp-for="AuthorId" readonly class="form-control" />
+        <span asp-validation-for="AuthorId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Agent:</label>
+        <select asp-for="AgentId" asp-items="@ViewBag.AgentUsername"></select>
+    </div>
+    <div class="form-group">
+        <label>Project:</label>
+        <select asp-for="ProjectId" asp-items="@ViewBag.ProjectId"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Priority"></label>
+        <select asp-for="Priority" asp-items="@Html.GetEnumSelectList<Priority>()"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Upload Files:</label>
+        <input type="file" asp-for="FilesToUpload" multiple />
+        <span asp-validation-for="FilesToUpload" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Add Work Times:</label>
+        <input asp-for="WorkingTime" />
+        <span asp-validation-for="WorkingTime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label><abbr title="Checked=Complete"> Completed</abbr></label>
+        <input asp-for="IsComplete" />
+        <span asp-validation-for="IsComplete" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Ticket<abbr title="Checked=Unactive"> Status </abbr></label>
+        <input asp-for="IsDeleted" />
+        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+    </div>
+
+
+    <button class="btn btn-primary" asp-area="Admin" asp-controller="Ticket" asp-action="EditTicket">Edit Ticket</button>
+    <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets">Back to list </a>
+
+</form>
+

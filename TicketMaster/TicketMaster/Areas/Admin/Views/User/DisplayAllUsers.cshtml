@@ -1,0 +1,90 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.User.DisplayAllUsersViewModel
+@{
+    ViewData["Title"] = "DisplayAllUsers";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>All Users</h1>
+
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+
+                        <input type="text" id="myInput" onkeyup="myFuction(0)" class="form-control float-right" placeholder="Search by username...">
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>Username</th>
+                            <th>Company</th>
+                            <th>Email</th>
+                            <th>Email Confirmation</th>
+                            <th>Projects</th>
+                            <th>Answered Tickets</th>
+                            <th>Send Tickets</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var user in Model.Users)
+                        {
+                            <tr>
+                                <td>@user.UserName</td>
+                                <td>Id:@user.CompanyId- @user.Company.Name</td>
+                                <td>@user.Email</td>
+                                @if (user.EmailConfirmed)
+                                {
+                                    <td class="text-success">Email Confirmed </td>
+                                }
+                                else
+                                {
+                                    <td class="text-danger">Email Not Confirmed </td>
+                                }
+                                <td>
+                                    @user.Projects.Count() <a class="btn btn-outline-success" asp-area="Admin" asp-controller="User" asp-action="DisplayAllUserProjects" asp-route-id="@user.Id">Projects </a>
+                                                           <div> <a class="btn btn-outline-dark" style="margin:7px;" asp-area="Admin" asp-controller="User" asp-action="AddUserToProject" asp-route-id="@user.Id">Add</a><a class="btn btn-outline-dark" style="margin:7px;" asp-area="Admin" asp-controller="User" asp-action="RemoveUserToProject" asp-route-id="@user.Id">Remove</a></div>
+                                </td>
+                                <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="User" asp-action="DisplayAllUserAnsweredTickets" asp-route-id="@user.Id">Answered Tickets(@user.AnsweredTickets.Count()) </a></td>
+                                <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="User" asp-action="DisplayAllUserSendTickets" asp-route-id="@user.Id"> Send Tickets(@user.SendTickets.Count()) </a></td>
+                                @if (user.IsDelete == false)
+                                {
+                                    <td class=" tag table-success">Active User</td>
+                                }
+                                else
+                                {
+                                    <td class="tag table-danger"> Unactive User</td>
+                                }
+
+                                <td>
+                                    <a class="btn btn-primary " asp-area="Admin" asp-controller="User" asp-action="EditUser" asp-route-id="@user.Id">Edit </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger " asp-area="Admin" asp-controller="User" asp-action="DeleteUser" asp-route-id="@user.Id">Delete </a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+
+</div>
+@section Scripts {
+<script>
+
+    $(document).ready(myFuction(0));
+</script>
+}

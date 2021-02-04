@@ -1,0 +1,33 @@
+Navigation Bar.
+When first logged in, if the user is in role "Admin", they will see multicolored nav bar items"Admin Mode" and "Agent Mode". These items are seen only by users in role "Admin"!
+When clicked on "Admin Mode" the link redirects the user to the Admin/Home/Index and the layout is switched to _AdminLayout rather than the default _Layout.
+If clicked on "Agent Mode" the link redirects the user to the Agent/Home/Index and the layout is switched to _AgentLayout rather than the default _Layout.
+There will be a change in all nav bar items when redirected trough either of the links for changing mode.
+
+In this guide we will look closely in the Admin Mode features! For more information on the Agent Mode, you can find the AgentGuide.
+
+----
+Home.
+In the admin Home page you can find the Admin Panel, containing links for accessing all possible settings implemented in this app.
+Button Users- when clicked a collection of buttons will slide down.
+The first button "See All Users" leads to a table containing information for each registered user on the app, no matter if their email is confirmed or not.
+The only posible changes that can be made from Admin to user account is changing the Company that a users workes in, the user's status(if a user is active or not) and if the user is global
+or not(The GLOBAL feature should only be applied to users in role "Agent"!). 
+The second button "Edit User" leads again to the page displaying all registered users. 
+The third button "Delete User" leads again to the page displaying all registered users. 
+
+Button Company- when clicked a collection of buttons will slide down. 
+Button Projects- when clicked a collection of buttons will slide down. 
+Button Tickets- when clicked a collection of buttons will slide down. 
+----
+
+AllUsers.
+----
+
+AllCompanies.
+
+----
+AllProjects.
+
+----
+AllSendTickets and AllAnswerTickets.

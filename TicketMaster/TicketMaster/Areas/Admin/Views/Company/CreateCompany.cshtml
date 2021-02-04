@@ -1,0 +1,24 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Company.CreateCompanyBindingModel
+@{
+    ViewData["Title"] = "CreateCompany";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Create Company</h1>
+<form asp-area="Admin" asp-controller="Company" asp-action="CreateCompany" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label> Company <abbr title="Checked= Unactive"> Status</abbr> </label>
+        <input asp-for="IsDeleted" />
+        <span asp-validation-for="IsDeleted"></span>
+    </div>
+
+    <button type="submit" class=" btn btn-primary">Create Company </button>
+    <a asp-area="Admin" asp-controller="Company" asp-action="DisplayAllCompanies"> Back To List</a>
+
+</form>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>contractapprove</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-285-Copy-3" fill="#5EA7FF" x="12" y="7" width="41" height="56" rx="3"></rect>
+        <circle id="Oval-103-Copy-3" fill="#0A3586" cx="32.5" cy="3.5" r="2.5"></circle>
+        <rect id="Rectangle-264-Copy-5" fill="#ECECEC" x="16" y="11" width="33" height="48"></rect>
+        <circle id="Oval-168-Copy" stroke="#979797" stroke-width="2" stroke-linecap="round" stroke-dasharray="4" cx="32.5" cy="35.5" r="9.5"></circle>
+        <path d="M22,8 C22,5.790861 23.7904482,4 25.9993692,4 L39.0006308,4 C41.2094214,4 43,5.79535615 43,8 L43,12 L22,12 L22,8 Z" id="Rectangle-286-Copy-3" fill="#0A3586"></path>
+        <polyline id="Path-131-Copy" stroke="#22BA8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="28.4490432 36.4590401 31.7972927 38.6876075 36.004833 32"></polyline>
+    </g>
+</svg>

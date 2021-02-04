@@ -1,0 +1,47 @@
+﻿@model TicketMaster.Models.CreateTicketBindingModel
+@{
+    ViewData["Title"] = "CreateTicket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create Ticket</h1>
+<form enctype="multipart/form-data" asp-area="" asp-controller="Home" asp-action="CreateTicket" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group" hidden>
+        <label asp-for="AuthorId"></label>
+        <input asp-for="AuthorId" readonly class="form-control" />
+        <span asp-validation-for="AuthorId" class="text-danger"> </span>
+    </div>
+    <div class="form-group" hidden>
+        <label asp-for="AgentId"></label>
+        <input asp-for="AgentId" readonly class="form-control" />
+        <span asp-validation-for="AgentId" class="text-danger"> </span>
+    </div>
+    <div class="form-group" hidden>
+        <label asp-for="Priority"></label>
+        <input asp-for="Priority" readonly class="form-control" />
+        <span asp-validation-for="Priority" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div><div class="form-group">
+        <label> Date:</label>
+        <input asp-for="SendOn" value="@DateTime.Now" />
+        <span asp-validation-for="SendOn" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProjectId"></label>
+        <select asp-for="ProjectId" asp-items="@ViewBag.ProjectId"></select>
+    </div>
+    <button type="submit" class="btn btn-primary" asp-controller="Home" asp-action="CreateTicket">Create Ticket</button>
+    <a asp-area="" asp-controller="Home" asp-action="Index" asp-route-id="@User.Identity.Name"> Back to list</a>
+
+</form>
+

@@ -1,0 +1,76 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Company.DisplayAllCompaniesViewModel
+@{
+    ViewData["Title"] = "DisplayAllCompanies";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>DisplayAllCompanies</h1>
+
+<a class="btn btn-outline-dark" style="margin:10px;" asp-area="Admin" asp-controller="Company" asp-action="CreateCompany">Create Company</a>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width:300px;">
+                        <input type="text" id="myInput" name="table_search" onkeyup="myFuction(1)" class="form-control float-right" placeholder="Search by name...">
+
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Projects</th>
+                            <th>Workers</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var company in Model.Companies)
+                        {
+                            <tr>
+                                <td>@company.Id</td>
+                                <td>@company.Name</td>
+                                @if (company.IsDeleted == false)
+                                {
+                                    <td class=" tag table-success">Active Company</td>
+                                }
+                                else
+                                {
+                                    <td class="tag table-danger"> Unactive Company</td>
+                                }
+                                <td><a class="btn btn-outline-success" asp-area="Admin" asp-controller="Company" asp-action="DisplayAllCompanyProjects" asp-route-id="@company.Id">Company Projects(@company.Projects.Count()) </a></td>
+                                <td><a class="btn btn-outline-danger" asp-area="Admin" asp-controller="Company" asp-action="DisplayAllCompanyWorkers" asp-route-id="@company.Id">Company Workers(@company.Workers.Count()) </a></td>
+                                <td>
+                                    <a class="btn btn-primary " asp-area="Admin" asp-controller="Company" asp-action="EditCompany" asp-route-id="@company.Id">Edit </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger " asp-area="Admin" asp-controller="Company" asp-action="DeleteCompany" asp-route-id="@company.Id">Delete </a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+    $(document).ready(myFuction(1));
+    </script>
+}

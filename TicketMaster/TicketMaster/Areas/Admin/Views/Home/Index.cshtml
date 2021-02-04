@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h1><img src="~/Magicons 100 Business Icons/png/1x/headsettings.png" style=" height:60px; width:60px; margin-bottom:20px;" /> Admin Panel</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        @*<div class="card ">*@
+        <!-- /.card-header -->
+        @*<div class="card-body ">*@
+        <div id="accordion">
+            <!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
+            <div class="card card-primary">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color: #e10505;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="btn-lg btn btn-outline-danger">
+                            Users
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/teamsales.png"  style="margin-left:920px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="card-body">
+                        <div>
+                            <a asp-area="Admin" asp-controller="User" asp-action="DisplayAllUsers" class="btn btn-outline-dark">See All Users </a>
+                            <a asp-area="Admin" asp-controller="User" asp-action="DisplayAllUsers" class="btn btn-outline-dark"> Edit User</a>
+                            <a asp-area="Admin" asp-controller="user" asp-action="DisplayAllUsers" class="btn btn-danger">Delete User </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-danger">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color: orange;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="btn-lg btn btn-outline-warning">
+                            Companies
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/officebuilding.png" style="margin-left:860px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="card-body">
+                        <span>
+                            <a asp-area="Admin" asp-controller="Company" asp-action="DisplayAllCompanies" class="btn btn-outline-dark">See All Companies </a>
+                            <a asp-area="Admin" asp-controller="Company" asp-action="CreateCompany" class="btn btn-outline-dark"> Create New Company</a>
+                            <a asp-area="Admin" asp-controller="Company" asp-action="DisplayAllCompanies" class="btn btn-danger">Delete Company </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-success">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color: limegreen;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="btn-lg btn btn-outline-success">
+                            Projects
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/infographic1.png" style="margin-left:900px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="card-body">
+                        <span>
+                            <a asp-area="Admin" asp-controller="Project" asp-action="DisplayAllProjects" class="btn btn-outline-dark">See All Projects </a>
+                            <a asp-area="Admin" asp-controller="Project" asp-action="CreateProject" class="btn btn-outline-dark"> Create New Project</a>
+                            <a asp-area="Admin" asp-controller="Project" asp-action="DisplayAllProjects" class="btn btn-danger">Delete Project </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-danger">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color:deepskyblue;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="btn-lg btn btn-outline-info">
+                            Tickets
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/contractapprove.png" style="margin-left:910px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="card-body">
+                        <span>
+                            <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets" class="btn btn-outline-dark">See All Send Tickets </a>
+                            <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllAnswerTickets" class="btn btn-outline-dark">See All Answer Tickets </a>
+                            <a asp-area="Admin" asp-controller="Ticket" asp-action="CreateTicket" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark"> Create New Ticket</a>
+                            <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets" class="btn btn-outline-dark">Answer Ticket</a>
+                            <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets" class="btn btn-danger">Delete Ticket </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <!-- /.card-body -->
+        <!--</div>-->
+        <!-- /.card -->
+    </div>
+
+</div>

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "AgentGuide";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>Agent Guide</h1>
+
+@if (ViewBag.guideError == null)
+{
+    <div>
+        <h3 style="color:#4fe879;"> Navigation bar guide</h3>
+        <text>@ViewBag.navbarGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#3cddb3;"> Home guide</h3>
+        <text>@ViewBag.homeGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#71c8f4;"> Companies guide</h3>
+        <text>@ViewBag.companyGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#5a8fd6;"> Users guide</h3>
+        <text>@ViewBag.userGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#5a61d6;"> Projects guide</h3>
+        <text>@ViewBag.projectGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#523997;"> Tickets guide</h3>
+        <text>@ViewBag.ticketGuide</text>
+    </div>
+}
+else
+{
+    <div>
+        <text class="text-danger">
+            @ViewBag.guideError
+        </text>
+    </div>
+}

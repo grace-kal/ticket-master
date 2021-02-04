@@ -1,0 +1,61 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.User.EditUserBindingModel
+@{
+    ViewData["Title"] = "EditUser";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Edit User Info</h1>
+<form asp-area="Admin" asp-controller="User" asp-action="EditUser" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group" hidden>
+        <label asp-for="Id"></label>
+        <input asp-for="Id" readonly class="form-control" />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" readonly class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" readonly class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CompanyId"></label>
+        <select asp-for="CompanyId" asp-items="@ViewBag.CompanyId"></select>
+    </div>
+    @if (Model.EmailConfirmed)
+    {
+        <div class="form-group">
+            <label class="text-success"> Email confirmed</label>
+            <input type="hidden" asp-for="EmailConfirmed" />
+            <span asp-validation-for="EmailConfirmed" class="text-danger"></span>
+        </div>
+    }
+    else
+    {
+        <div class="form-group">
+            <label class="text-danger"> Email Not Confirmed</label>
+            <input type="hidden" asp-for="EmailConfirmed" />
+            <span asp-validation-for="EmailConfirmed" class="text-danger"></span>
+        </div>
+    }
+    <div class="form-group">
+        <label>User <abbr title="Checked= Unactive"> Status</abbr></label>
+        <input asp-for="IsDeleted" />
+        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Global user </label>
+        <input asp-for="IsGlobal" />
+        <span asp-validation-for="IsGlobal" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Edit User </button>
+    <a asp-area="Admin" asp-controller="User" asp-action="DisplayAllUsers">Back to list</a>
+
+</form>

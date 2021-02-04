@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>stamp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M23.7406578,10.962071 C23.3316038,6.5647406 26.5777418,3 30.9998866,3 L33.0001134,3 C37.4183288,3 40.667553,6.57380498 40.2593422,10.962071 L37,46 L27,46 L23.7406578,10.962071 Z" id="Rectangle-488" fill="#BD7575"></path>
+        <path d="M10,46 L54,46 L54,52 C54,55.3137085 51.3138375,58 47.9972261,58 L16.0027739,58 C12.6875334,58 10,55.3069658 10,52 L10,46 Z" id="Rectangle-489" fill="#5B68C0"></path>
+        <polygon id="Rectangle-490" fill="#9C4D4D" points="8 49 56 49 56 54 8 54"></polygon>
+    </g>
+</svg>

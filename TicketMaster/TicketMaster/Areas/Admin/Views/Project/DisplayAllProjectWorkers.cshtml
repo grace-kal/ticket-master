@@ -1,0 +1,85 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Project.DisplayAllProjectWorkersViewModel
+@{
+    ViewData["Title"] = "DisplayAllProjectWorkers";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1> All Project Workers</h1>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+
+                        <input type="text" id="myInput" onkeyup="myFunction(0)" class="form-control float-right" placeholder="Search by username...">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>Username</th>
+                            <th>Company</th>
+                            <th>Email</th>
+                            <th>Email Confirmation</th>
+                            <th>Projects</th>
+                            <th>Answered Tickets</th>
+                            <th>Send Tickets</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var worker in Model.Workers)
+                        {
+                            <tr>
+                                <td>@worker.UserName</td>
+                                <td>Id:@worker.CompanyId</td>
+                                <td>@worker.Email</td>
+                                @if (worker.EmailConfirmed)
+                                {
+                                    <td class="text-success">Email Confirmed </td>
+                                }
+                                else
+                                {
+                                    <td class="text-danger">Email Not Confirmed </td>
+                                }
+                                <td><a class="btn btn-outline-success" asp-area="Admin" asp-controller="User" asp-action="DisplayAllUserProjects" asp-route-id="@worker.Id">Projects(@worker.Projects.Count()) </a></td>
+                                <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="User" asp-action="DisplayAllUserAnsweredTickets" asp-route-id="@worker.Id">Answered Tickets(@worker.AnsweredTickets.Count()) </a></td>
+                                <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="User" asp-action="DisplayAllUserSendTickets" asp-route-id="@worker.Id"> Send Tickets(@worker.SendTickets.Count()) </a></td>
+                                @if (worker.IsDelete == false)
+                                {
+                                    <td class=" tag table-success">Active User</td>
+                                }
+                                else
+                                {
+                                    <td class="tag table-danger"> Unactive User</td>
+                                }
+
+                                <td>
+                                    <a class="btn btn-primary " asp-area="Admin" asp-controller="User" asp-action="EditUser" asp-route-id="@worker.Id">Edit </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger " asp-area="Admin" asp-controller="User" asp-action="RemoveUserToProject" asp-route-id="@worker.Id">Remove User </a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}

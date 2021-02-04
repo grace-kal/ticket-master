@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>maleapprove</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,50.9206814 C8,48.707202 9.77500008,46.6994337 11.9692715,46.4356406 L31.875,44.0425936 L51.7807285,46.4356406 C53.9728966,46.6991808 55.75,48.7006188 55.75,50.9206814 L55.75,63.0425936 L8,63.0425936 L8,50.9206814 Z" id="Rectangle-90-Copy-3" fill="#5B68C0"></path>
+        <path d="M23.9659091,41.0820517 C19.997906,37.3171352 17.375,31.2233999 17.375,26.1331692 C17.375,18.1250403 23.8668711,11.6331692 31.875,11.6331692 C39.8831289,11.6331692 46.375,18.1250403 46.375,26.1331692 C46.375,31.2233999 43.752094,37.3171352 39.7840909,41.0820517 L39.7840909,49.9058965 C39.7840909,49.9058965 34.4224889,51.8154815 31.875,51.8154815 C29.3275111,51.8154815 23.9659091,49.9058965 23.9659091,49.9058965 L23.9659091,41.0820517 Z" id="Combined-Shape-Copy-9" fill="#FFDD95"></path>
+        <circle id="Oval-34" fill="#FFDD95" cx="17.875" cy="29" r="3"></circle>
+        <circle id="Oval-34-Copy" fill="#FFDD95" cx="45.875" cy="29" r="3"></circle>
+        <path d="M13.875,14.5 C13.875,11.4624339 16.3328519,9 19.3759961,9 L45.875,9 L45.875,14.5 C45.875,17.5375661 43.4171481,20 40.3740039,20 L13.875,20 L13.875,14.5 Z" id="Rectangle-91-Copy-3" fill="#FFAF40" transform="translate(29.875000, 14.500000) scale(-1, 1) translate(-29.875000, -14.500000) "></path>
+        <circle id="Oval-160" fill="#80D25B" cx="53" cy="12" r="11"></circle>
+        <polyline id="Path-126" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="47.872522 14.2698075 53.0411537 17.3182991 57.0617275 6.93572452"></polyline>
+    </g>
+</svg>

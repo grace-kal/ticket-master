@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>bagvision</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-253-Copy" stroke="#595959" stroke-width="2" stroke-linecap="round" x="24" y="8" width="17" height="11" rx="3"></rect>
+        <rect id="Rectangle-270" fill="#595959" x="3" y="15" width="59" height="38"></rect>
+        <polygon id="Rectangle-270-Copy" fill="#868686" points="3 15 62 15 62 24.5 32.5 34 3 24.5"></polygon>
+        <path d="M32.0038839,20.9961161 C36.1349436,23.603136 39.0038839,29.3408901 39.0038839,36 C39.0038839,42.6591099 36.1349436,48.396864 32.0038839,51.0038839 C27.8728241,48.396864 25.0038839,42.6591099 25.0038839,36 C25.0038839,29.3408901 27.8728241,23.603136 32.0038839,20.9961161 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(32.003884, 36.000000) rotate(-270.000000) translate(-32.003884, -36.000000) "></path>
+        <circle id="Oval-74" fill="#4796E7" cx="32" cy="36" r="6"></circle>
+        <circle id="Oval-74-Copy" fill="#0A3586" cx="32" cy="36" r="3"></circle>
+    </g>
+</svg>

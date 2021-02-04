@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>currencyexchange</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-176-Copy-8" fill="#D8D8D8" x="29" y="43" width="6" height="11"></rect>
+        <rect id="Rectangle-177-Copy-8" stroke="#979797" stroke-width="2" x="25" y="55" width="14" height="1"></rect>
+        <path d="M2,8.99550699 C2,7.34113416 3.33730974,6 4.99593743,6 L59.0040626,6 C60.6586731,6 62,7.34246828 62,8.99550699 L62,42.004493 C62,43.6588658 60.6626903,45 59.0040626,45 L4.99593743,45 C3.34132688,45 2,43.6575317 2,42.004493 L2,8.99550699 Z" id="Rectangle-175-Copy-8" fill="#868686"></path>
+        <rect id="Rectangle-178-Copy-8" fill="#DFCC00" x="5" y="9" width="54" height="33"></rect>
+        <rect id="Rectangle-452" fill="#5B68C0" x="22" y="18" width="24" height="4"></rect>
+        <rect id="Rectangle-452-Copy" fill="#5B68C0" x="17" y="29" width="24" height="4"></rect>
+        <polygon id="Triangle-22" fill="#5B68C0" points="15 20 23 15 23 25"></polygon>
+        <polygon id="Triangle-22-Copy" fill="#5B68C0" transform="translate(44.000000, 31.000000) rotate(-180.000000) translate(-44.000000, -31.000000) " points="40 31 48 26 48 36"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>webtransfer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M33,48 L33,34" id="Line-Copy-457" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M13,49 L13,43.9999433 L13,43.9999433 C13,41.7908356 14.7964248,40 17.0000255,40 L48.9999745,40 C51.2091276,40 53,41.7996535 53,43.9999433 L53,49" id="Rectangle-495-Copy-3" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <rect id="Rectangle-494-Copy-3" fill="#D8D8D8" x="8" y="5" width="50" height="31"></rect>
+        <rect id="Rectangle-497" fill="#595959" x="8" y="5" width="50" height="5"></rect>
+        <circle id="Oval-178" fill="#E43535" cx="11.5" cy="7.5" r="1.5"></circle>
+        <circle id="Oval-178-Copy" fill="#FFAF40" cx="16.5" cy="7.5" r="1.5"></circle>
+        <circle id="Oval-178-Copy-2" fill="#80D25B" cx="21.5" cy="7.5" r="1.5"></circle>
+        <path d="M12,14 L38.0192237,14" id="Line-Copy-456" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M12,24 L38.0192237,24" id="Line-Copy-454" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M12,19 L38.0192237,19" id="Line-Copy-453" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <rect id="Rectangle-496-Copy-11" fill="#5B68C0" x="8" y="49" width="10" height="9"></rect>
+        <rect id="Rectangle-496-Copy-10" fill="#22BA8E" x="48" y="49" width="10" height="9"></rect>
+        <rect id="Rectangle-496-Copy-9" fill="#FFAF40" x="28" y="49" width="10" height="9"></rect>
+    </g>
+</svg>

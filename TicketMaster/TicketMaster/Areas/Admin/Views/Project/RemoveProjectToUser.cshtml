@@ -1,0 +1,21 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Project.AddProjectToUserViewModel
+@{
+    ViewData["Title"] = "RemoveProjectToUser";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Remove Project From User</h1>
+<form asp-area="Admin" asp-controller="Project" asp-action="RemoveProjectToUser" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="ProjectId"></label>
+        <input asp-for="ProjectId" class="form-control" readonly />
+        <span asp-validation-for="ProjectId"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="UserId"></label>
+        <select asp-for="UserId" asp-items="@ViewBag.UserId"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Remove User From Project</button>
+    <a asp-area="Admin" asp-controller="Project" asp-action=" DisplayAllProjects">Back to list </a>
+</form>

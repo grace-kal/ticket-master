@@ -1,0 +1,84 @@
+﻿@model TicketMaster.Areas.Agent.ViewModels.Company.CompanyWorkersViewModel
+@{
+    ViewData["Title"] = "CompanyWorkers";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>Company Workers</h1>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+                        <input type="text" id="myInput" onkeyup="myFuction(0)" name="table_search" class="form-control float-right" placeholder="Search by username...">
+
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>Username</th>
+                            <th>Company </th>
+                            <th>Email </th>
+                            <th>Email Confirmation </th>
+                            <th>Projects</th>
+                            <th>Answered Tickets</th>
+                            <th>Send Tickets</th>
+                            <th>Status</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var worker in Model.CompanyWorkers)
+                        {
+                            <tr>
+                                <td>@worker.UserName</td>
+                                <td>Id: @worker.CompanyId</td>
+                                <td>@worker.Email</td>
+                                @if (worker.EmailConfirmed)
+                                {
+                                    <td class="text-success">Email Confirmed </td>
+                                }
+                                else
+                                {
+                                    <td class="text-danger">Email Not Confirmed </td>
+                                }
+                                <td> <button class="btn btn-outline-dark">User Projects(@worker.Projects.Count()) </button></td>
+                                <td> <button class="btn btn-outline-dark">All answered tickets(@worker.AnsweredTickets.Count()) </button></td>
+                                <td> <button class="btn btn-outline-dark">All send tickets(@worker.SendTickets.Count()) </button></td>
+
+                                @if (worker.IsDelete == false)
+                                {
+                                    <td class=" tag table-success">Active Worker</td>
+                                }
+                                else
+                                {
+                                    <td class="tag table-danger"> Unactive Worker</td>
+                                }
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+<a asp-area="Agent" asp-controller="Company" asp-action="MyCompany" asp-route-id="@User.Identity.Name">Back </a>
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(0));
+    </script>
+}
+

@@ -1,0 +1,92 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Ticket.DeleteTicketViewModel
+@{
+    ViewData["Title"] = "DeleteTicket";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Delete Ticket</h1>
+<form asp-area="Admin" asp-controller="Ticket" asp-action="DeleteTicket" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label> Ticket Id:</label>
+        <input asp-for="Id" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Title:</label>
+        <input asp-for="Title" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Description: </label>
+        <input asp-for="Descripton" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> SendOn: </label>
+        <input asp-for="SendOn" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Priority: </label>
+        <input asp-for="Priority" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Project: </label>
+        <input asp-for="ProjectId" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label> Author: </label>
+        <input asp-for="AuthorId" readonly class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>Agent: </label>
+        <input asp-for="AgentId" readonly class="form-control"/>
+    </div>
+  
+    @if (Model.IsAnswered)
+    {
+        <div class="form-group">
+            <label class="text-success"> Answered </label>
+            <input asp-for="IsAnswered" hidden />
+        </div>
+    }
+    else
+    {
+        <div class="form-group">
+            <label class="text-danger"> Not Answered </label>
+            <input asp-for="IsAnswered" hidden />
+        </div>
+    }
+    @if (Model.IsComplete)
+    {
+        <div class="form-group">
+            <label class="text-success"> Completed </label>
+            <input asp-for="IsComplete" hidden />
+        </div>
+    }
+    else
+    {
+        <div class="form-group">
+            <label class="text-danger"> Not Complete </label>
+            <input asp-for="IsComplete" hidden />
+        </div>
+    }
+
+    @*I don't really need the IF below because in the controller I check if a ticket is already deleted and if it is I redirect *@
+    @if (Model.IsDeleted)
+    {
+        <div class="form-group">
+            <label class="text-danger"> Unactive Project </label>
+            <input asp-for="IsDeleted" hidden />
+        </div>
+    }
+    else
+    {
+        <div class="form-group">
+            <label class="text-success">Active Ticket </label>
+            <input asp-for="IsDeleted" hidden />
+        </div>
+    }
+
+    <button type="submit" class="btn btn-danger"> Delete Ticket</button>
+    <a asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets">Back to list</a>
+
+</form>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>mobiletransfer2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-165-Copy-21" fill="#D8D8D8" transform="translate(21.000000, 32.000000) rotate(-270.000000) translate(-21.000000, -32.000000) " x="-8" y="16" width="58" height="32" rx="2"></rect>
+        <circle id="Oval-63-Copy-12" fill="#868686" transform="translate(21.000000, 58.000000) rotate(-270.000000) translate(-21.000000, -58.000000) " cx="21" cy="58" r="2"></circle>
+        <rect id="Rectangle-165-Copy-20" fill="#325AA6" transform="translate(21.000000, 30.500000) rotate(-270.000000) translate(-21.000000, -30.500000) " x="-3.5" y="16.5" width="49" height="28" rx="1"></rect>
+        <path d="M25,32 L41,32" id="Line-Copy-447" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M41,17.5440421 L41,46.8636073" id="Line-Copy-446" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M41,17 L51,17" id="Line-Copy-445" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M41,47 L51,47" id="Line-Copy-444" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-176-Copy-9" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" cx="56" cy="17" r="4"></circle>
+        <path d="M41,32 L51,32" id="Line-Copy-443" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-176-Copy-8" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" cx="56" cy="32" r="4"></circle>
+        <circle id="Oval-176-Copy-7" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" cx="56" cy="46" r="4"></circle>
+        <rect id="Rectangle-493-Copy" fill="#4796E7" x="13" y="27" width="11" height="10"></rect>
+    </g>
+</svg>

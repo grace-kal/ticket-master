@@ -1,0 +1,9 @@
+F:\Projects\repos\TicketMaster\TicketMaster.Models\bin\Debug\netcoreapp3.1\TicketMaster.Models.deps.json
+F:\Projects\repos\TicketMaster\TicketMaster.Models\bin\Debug\netcoreapp3.1\TicketMaster.Models.dll
+F:\Projects\repos\TicketMaster\TicketMaster.Models\obj\Debug\netcoreapp3.1\TicketMaster.Models.csprojAssemblyReference.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Models\obj\Debug\netcoreapp3.1\TicketMaster.Models.AssemblyInfoInputs.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Models\obj\Debug\netcoreapp3.1\TicketMaster.Models.AssemblyInfo.cs
+F:\Projects\repos\TicketMaster\TicketMaster.Models\bin\Debug\netcoreapp3.1\TicketMaster.Models.pdb
+F:\Projects\repos\TicketMaster\TicketMaster.Models\obj\Debug\netcoreapp3.1\TicketMaster.Models.csproj.CoreCompileInputs.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Models\obj\Debug\netcoreapp3.1\TicketMaster.Models.dll
+F:\Projects\repos\TicketMaster\TicketMaster.Models\obj\Debug\netcoreapp3.1\TicketMaster.Models.pdb

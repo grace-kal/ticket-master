@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>folderstatsdecrease2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M30,14 L58.0040626,14 C59.6586731,14 61,15.3424683 61,16.995507 L61,50.004493 C61,51.6588658 59.6626903,53 58.0040626,53 L3.99593743,53 C2.34132688,53 1,51.6575317 1,50.004493 L1,16 L1,13.0016655 C1,11.3438914 2.34312337,10 4.00793008,10 L23.9920699,10 C25.6533038,10 27.8091867,11.0789156 28.8001978,12.4002638 L30,14 Z" id="Combined-Shape-Copy-92" fill="#FFAF40"></path>
+        <rect id="Rectangle-432-Copy-8" fill="#595959" x="40" y="33" width="5" height="10"></rect>
+        <rect id="Rectangle-432-Copy-7" fill="#595959" x="33" y="29" width="5" height="14"></rect>
+        <rect id="Rectangle-432-Copy-6" fill="#595959" x="26" y="25" width="5" height="18"></rect>
+        <rect id="Rectangle-432-Copy-5" fill="#22BA8E" x="19" y="22" width="5" height="21"></rect>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>infographicstats</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path-138" stroke="#595959" stroke-width="2" stroke-linecap="round" points="6.31387422 46.1541534 19.1822062 34.4682711 32.0336181 46.942887 42.7732804 27.2278007"></polyline>
+        <circle id="Oval-183" fill="#FFAF40" cx="32" cy="47" r="6"></circle>
+        <circle id="Oval-183-Copy" fill="#FFAF40" cx="19" cy="35" r="6"></circle>
+        <circle id="Oval-183-Copy-2" fill="#FFAF40" cx="6" cy="47" r="6"></circle>
+        <path d="M47,5.0090877 C39.7758005,5.27211371 34,11.2115516 34,18.5 C34,25.9558441 40.0441559,32 47.5,32 C54.7884484,32 60.7278863,26.2241995 60.9909123,19 L47,19 L47,5.0090877 Z" id="Combined-Shape" fill="#80D25B"></path>
+        <path d="M49,3 C56.4008731,3.71068896 62.289311,9.59912685 63,17 L49,17 L49,3 Z" id="Combined-Shape" fill="#D650C7"></path>
+    </g>
+</svg>

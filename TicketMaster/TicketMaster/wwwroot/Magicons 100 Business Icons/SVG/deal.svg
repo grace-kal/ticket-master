@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>deal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path-125" fill="#FFDD95" points="8.71508846 24.1657863 17.9645682 23.9549446 21.3069544 23.0539005 29.0988064 23.1426592 32.9208737 20.015921 39.832189 20.069753 46.1686561 24.0030088 55.957096 24.0930491 55.3780823 37.1998432 48.7804662 37.1040352 43.0005828 39.522627 44.8863026 41.8886687 29.4141077 49.2021213 15.770276 37.044756 8.11428563 36.9492684"></polygon>
+        <path d="M9.11483332,37.0305911 L15.9693087,37.0105179 L28.1580776,47.8784864 C28.9809245,48.6121679 30.4672947,48.850604 31.4828465,48.4089313 L43.6734075,43.1071457 C44.6867797,42.6664209 44.8999002,41.6613671 44.1389288,40.851119 L33.571055,29.5989227 L27.5410308,33.8563085 C26.1857774,34.8131598 24.1699578,34.6089207 23.0361299,33.3975187 L23.6122819,34.0130897 C22.4795473,32.8028558 22.4605064,30.8255943 23.5698992,29.5965905 L32.1081753,20.1377463 L40.0930898,20.0588621 L46.2840925,24.0277245 L54.2876716,24.00906" id="Path-119" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <polyline id="Path-120" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" points="9.84204724 24.1213995 18.0502322 24.1302036 21.1429163 22.9895518 29.3704702 23.0134988"></polyline>
+        <polyline id="Path-121" stroke="#FFAF40" stroke-width="2" stroke-linecap="round" points="43.4206657 39.761253 49.3225437 37.0453819 55.1141951 37.065103"></polyline>
+        <rect id="Rectangle-461" fill="#D8D8D8" x="54" y="22" width="9" height="19"></rect>
+        <rect id="Rectangle-461-Copy" fill="#D8D8D8" x="1" y="21" width="9" height="18"></rect>
+        <path d="M34.2774914,46.9562687 L29.2179842,42.6901819" id="Path-122" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M37.8959529,45.2334937 L33.2481227,41.0603775" id="Path-123" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M41.8468551,43.5198748 L36.8179859,39.012205" id="Path-124" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <rect id="Rectangle-462" fill="#979797" x="5" y="35" width="2" height="2"></rect>
+        <rect id="Rectangle-462-Copy" fill="#979797" x="57" y="25" width="2" height="2"></rect>
+    </g>
+</svg>

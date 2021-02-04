@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>transfer2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M25,32 L41,32" id="Line-Copy-423" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M2,45.0549284 C2,42.8444807 3.78716697,40.8467817 5.96428975,40.5961044 L19,39.0951525 L32.0357102,40.5961044 C34.225127,40.8481973 36,42.8443807 36,45.0549284 L36,52.0525589 L2,52.0525589 L2,45.0549284 Z" id="Rectangle-90-Copy-30" fill="#5B68C0"></path>
+        <path d="M13,33.3690057 C9.98979073,30.5230149 8,25.9141132 8,22.0525589 C8,15.9774266 12.9248678,11.0525589 19,11.0525589 C25.0751322,11.0525589 30,15.9774266 30,22.0525589 C30,25.9141132 28.0102093,30.5230149 25,33.3690057 L25,39.8260128 C25,39.8260128 20.9325778,41.0525589 19,41.0525589 C17.0674222,41.0525589 13,39.8260128 13,39.8260128 L13,33.3690057 Z" id="Combined-Shape-Copy-101" fill="#FFDD95"></path>
+        <circle id="Oval-59-Copy-37" fill="#FFDD95" cx="10" cy="27.0525589" r="3"></circle>
+        <circle id="Oval-59-Copy-36" fill="#FFDD95" cx="28" cy="27.0525589" r="3"></circle>
+        <polygon id="Rectangle-415-Copy-5" fill="#FFFFFF" points="11 39 18.9977085 40.8779297 11 45"></polygon>
+        <polyline id="Rectangle-415-Copy-4" fill="#FFFFFF" points="27.0813495 39 19 40.8508461 27.0813495 45"></polyline>
+        <path d="M41,17.5440421 L41,46.8636073" id="Line-Copy-422" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M41,17 L51,17" id="Line-Copy-421" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M41,47 L51,47" id="Line-Copy-420" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-176-Copy-3" stroke="#979797" stroke-width="2" stroke-linecap="round" cx="56" cy="17" r="4"></circle>
+        <path d="M41,32 L51,32" id="Line-Copy-424" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-176-Copy-4" stroke="#979797" stroke-width="2" stroke-linecap="round" cx="56" cy="32" r="4"></circle>
+        <circle id="Oval-176-Copy-2" stroke="#979797" stroke-width="2" stroke-linecap="round" cx="56" cy="46" r="4"></circle>
+    </g>
+</svg>

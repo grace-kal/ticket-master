@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>contractadjust</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-285" fill="#FFAF40" x="14" y="7" width="41" height="56" rx="3"></rect>
+        <circle id="Oval-103" fill="#BD7575" cx="34.5" cy="3.5" r="2.5"></circle>
+        <rect id="Rectangle-264" fill="#ECECEC" x="18" y="11" width="33" height="48"></rect>
+        <path d="M24,8 C24,5.790861 25.7904482,4 27.9993692,4 L41.0006308,4 C43.2094214,4 45,5.79535615 45,8 L45,12 L24,12 L24,8 Z" id="Rectangle-286" fill="#BD7575"></path>
+        <path d="M23.0555264,21.3159371 L28.6000715,26.8604821" id="Path-130" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <circle id="Oval-167" stroke="#E43535" stroke-width="2" stroke-linecap="round" cx="26" cy="45" r="3"></circle>
+        <path d="M36,45 L43,45" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M36,24 L43,24" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M23.0555264,26.8604821 L28.6000715,21.3159371" id="Path-130-Copy" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+</svg>

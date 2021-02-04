@@ -1,0 +1,15 @@
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Data.deps.json
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Data.dll
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.csprojAssemblyReference.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.AssemblyInfoInputs.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.AssemblyInfo.cs
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Data.runtimeconfig.json
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Data.runtimeconfig.dev.json
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.genruntimeconfig.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Data.pdb
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Models.dll
+F:\Projects\repos\TicketMaster\TicketMaster.Data\bin\Debug\netcoreapp3.1\TicketMaster.Models.pdb
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.csproj.CoreCompileInputs.cache
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.csproj.CopyComplete
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.dll
+F:\Projects\repos\TicketMaster\TicketMaster.Data\obj\Debug\netcoreapp3.1\TicketMaster.Data.pdb

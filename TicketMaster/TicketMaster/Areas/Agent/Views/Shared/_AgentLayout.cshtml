@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TicketMaster</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="Agent" asp-controller="Home" asp-action="Index">
+                    TicketMaster
+                    <sub style="font-size:15px;">
+                        <span style="color:#22e84a;">Age</span><span style="color:#3cddb3;">nt</span><span style="color:#5c99e4; ">Mo</span><span style="color:#5a61d6;">de</span>
+                    </sub>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_AgentLoginPartial" />
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Agent" asp-controller="Home" asp-action="Index">Agent Home</a>
+                            <ul>
+                                <li><a class="nav-link text-dark" asp-area="Agent" asp-controller="Home" asp-action="AgentGuide">Agent Guide</a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">User Home</a>
+                            <ul>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UserGuide">User Guide</a> </li>
+                            </ul>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">
+                                    <span style="color:#fa3535;">Ad</span><span style="color:#fb8531;">min</span><span style="color:#fca336; "> Ho</span><span style="color: gold;">me</span>
+                                </a>
+                                <ul>
+                                    <li><a class="nav-link text-dark" asp-area="Admin" asp-controller="Home" asp-action="AdminGuide">Admin Guide</a> </li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - TicketMaster
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

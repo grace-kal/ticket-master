@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1><img src="~/Magicons 100 Business Icons/png/1x/supportfemale.png" style=" height:60px; width:60px; margin-bottom:20px;" />Agent Panel</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        @*<div class="card ">*@
+        <!-- /.card-header -->
+        @*<div class="card-body ">*@
+        <div id="accordion">
+            <!-- we are adding the .class so bootstrap.js collapse plugin detects it -->
+            <div class="card card-primary">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color: #3cfa55;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="btn-lg btn btn-outline-dark">
+                            Company
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/officebuilding.png" style="margin-left:885px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="card-body">
+                        <div>
+                            <a asp-area="Agent" asp-controller="Company" asp-action="MyCompany" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark">My Company</a>
+                            <a asp-area="Agent" asp-controller="Company" asp-action="MyCompany" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark">Company Projects</a>
+                            <a asp-area="Agent" asp-controller="Company" asp-action="MyCompany" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark">Company Workers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-danger">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color:#4ed1f9;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="btn-lg btn btn-outline-dark">
+                            Projects
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/infographic1.png" style="margin-left:910px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="card-body">
+                        <span>
+                            <a asp-area="Agent" asp-controller="Project" asp-action="MyProjects" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark">My Projects </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-success">
+                <div class="card-header" style="background-color:transparent; border-top:2px solid; border-top-color: #6745fc;">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="btn-lg btn btn-outline-dark">
+                            Tickets
+                        </a>
+                        <img src="~/Magicons 100 Business Icons/png/1x/contractapprove.png" style="margin-left:920px; height:40px; width:40px;" class="col-xs-6" />
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="card-body">
+                        <span>
+                            <a asp-area="Agent" asp-controller="Ticket" asp-action="MySendTickets" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark">My Send Tickets </a>
+                            <a asp-area="Agent" asp-controller="Ticket" asp-action="MyAnswerTickets" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark"> My Answer Tickets</a>
+                            <a asp-area="Agent" asp-controller="Ticket" asp-action="CreateTicket" asp-route-id="@User.Identity.Name" class="btn btn-outline-dark"> Create Ticket</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--</div>-->
+        <!-- /.card-body -->
+        <!--</div>-->
+        <!-- /.card -->
+    </div>
+
+</div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>businessbalance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-475" fill="#9F5757" x="27" y="5" width="6" height="58"></rect>
+        <path d="M36,64 C36,62.3431458 33.3137085,61 30,61 C26.6862915,61 24,62.3431458 24,64 L36,64 Z" id="Oval-171" fill="#BD7575"></path>
+        <path d="M11.079082,11.111983 L6.33391181,25.8793389" id="Path-133" stroke="#D8D8D8" stroke-linecap="round"></path>
+        <path d="M16.079082,11.111983 L11.3339118,25.8793389" id="Path-133-Copy" stroke="#D8D8D8" stroke-linecap="round" transform="translate(13.706497, 18.495661) scale(-1, 1) translate(-13.706497, -18.495661) "></path>
+        <path d="M47.079082,11.111983 L42.3339118,25.8793389" id="Path-133-Copy-3" stroke="#D8D8D8" stroke-linecap="round"></path>
+        <path d="M52.079082,11.111983 L47.3339118,25.8793389" id="Path-133-Copy-2" stroke="#D8D8D8" stroke-linecap="round" transform="translate(49.706497, 18.495661) scale(-1, 1) translate(-49.706497, -18.495661) "></path>
+        <rect id="Rectangle-476" fill="#BD7575" x="7" y="10" width="46" height="2"></rect>
+        <path d="M18.1061918,26 C18.1061918,22.1340068 14.9721851,19 11.1061918,19 C7.24019858,19 4.10619183,22.1340068 4.10619183,26 L18.1061918,26 Z" id="Oval-172" fill="#FFAF40" transform="translate(11.106192, 26.000000) rotate(-180.000000) translate(-11.106192, -26.000000) "></path>
+        <rect id="Rectangle-477" fill="#BD7575" x="37" y="21" width="21" height="13" rx="1"></rect>
+        <rect id="Rectangle-479" fill="#9F5757" x="37" y="21" width="21" height="5"></rect>
+        <rect id="Rectangle-478" stroke="#9F5757" stroke-width="2" stroke-linecap="round" x="44" y="19" width="7" height="5"></rect>
+    </g>
+</svg>

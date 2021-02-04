@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>statsboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-467" fill="#80D25B" x="4" y="11" width="57" height="44"></rect>
+        <path d="M15,12 L15,54" id="Line" stroke="#22BA8E" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M38,12 L38,54" id="Line-Copy-409" stroke="#22BA8E" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M27,12 L27,54" id="Line-Copy-408" stroke="#22BA8E" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M50,12 L50,54" id="Line-Copy-410" stroke="#22BA8E" stroke-width="2" stroke-linecap="square"></path>
+        <circle id="Oval-165" fill="#D650C7" cx="9" cy="43" r="2"></circle>
+        <circle id="Oval-165-Copy" fill="#D650C7" cx="21" cy="31" r="2"></circle>
+        <circle id="Oval-165-Copy-2" fill="#D650C7" cx="33" cy="37" r="2"></circle>
+        <circle id="Oval-165-Copy-3" fill="#D650C7" cx="44" cy="23" r="2"></circle>
+        <circle id="Oval-165-Copy-4" fill="#D650C7" cx="56" cy="23" r="2"></circle>
+        <polyline id="Path-129" stroke="#D650C7" stroke-width="2" stroke-linecap="round" points="9.19715954 42.8680359 21.1773381 31.0117946 33.0045864 37.0643304 44.1372761 23.0858624 56.0786392 23.0858624"></polyline>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>contractagree</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-285-Copy" fill="#23BA8E" x="14" y="7" width="41" height="56" rx="3"></rect>
+        <circle id="Oval-103-Copy" fill="#5B68C0" cx="34.5" cy="3.5" r="2.5"></circle>
+        <rect id="Rectangle-264-Copy-3" fill="#ECECEC" x="18" y="11" width="33" height="48"></rect>
+        <path d="M24,8 C24,5.790861 25.7904482,4 27.9993692,4 L41.0006308,4 C43.2094214,4 45,5.79535615 45,8 L45,12 L24,12 L24,8 Z" id="Rectangle-286-Copy" fill="#5B68C0"></path>
+        <path d="M32.0555264,41.3159371 L37.6000715,46.8604821" id="Path-130-Copy-3" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M32.0555264,46.8604821 L37.6000715,41.3159371" id="Path-130-Copy-2" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <polyline id="Path-131" stroke="#22BA8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="31 27.4590401 34.3482495 29.6876075 38.5557898 23"></polyline>
+    </g>
+</svg>

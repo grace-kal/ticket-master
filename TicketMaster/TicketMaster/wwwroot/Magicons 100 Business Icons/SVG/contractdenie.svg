@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>contractdenie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-285-Copy-4" fill="#B6B6B6" x="13" y="7" width="41" height="56" rx="3"></rect>
+        <circle id="Oval-103-Copy-4" fill="#E43535" cx="33.5" cy="3.5" r="2.5"></circle>
+        <rect id="Rectangle-264-Copy-6" fill="#ECECEC" x="17" y="11" width="33" height="48"></rect>
+        <path d="M23,8 C23,5.790861 24.7904482,4 26.9993692,4 L40.0006308,4 C42.2094214,4 44,5.79535615 44,8 L44,12 L23,12 L23,8 Z" id="Rectangle-286-Copy-4" fill="#E43535"></path>
+        <path d="M23.0555264,19.3159371 L28.6000715,24.8604821" id="Path-130-Copy-5" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M23.0555264,24.8604821 L28.6000715,19.3159371" id="Path-130-Copy-4" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M23.0555264,39.3159371 L28.6000715,44.8604821" id="Path-130-Copy-7" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M23.0555264,44.8604821 L28.6000715,39.3159371" id="Path-130-Copy-6" stroke="#E43535" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M35,20 L43.0622577,20" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M35,40 L43.0622577,40" id="Line-Copy-412" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M35,23 L43.0622577,23" id="Line-Copy-411" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M35,43 L43.0622577,43" id="Line-Copy-413" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+    </g>
+</svg>

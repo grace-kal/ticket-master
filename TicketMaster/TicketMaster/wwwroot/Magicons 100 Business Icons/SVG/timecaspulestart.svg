@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>timecaspulestart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,7 C20,21.9116882 28.2439533,34 33,34 C37.7560467,34 46,21.9116882 46,7 L20,7 Z" id="Combined-Shape-Copy-91" fill="#ECECEC"></path>
+        <path d="M20,31 C20,45.9116882 28.2439533,58 33,58 C37.7560467,58 46,45.9116882 46,31 L20,31 Z" id="Combined-Shape-Copy-90" fill="#ECECEC" transform="translate(33.000000, 44.500000) scale(1, -1) translate(-33.000000, -44.500000) "></path>
+        <path d="M22,7 C22,18.5979797 28.9756528,28 33,28 C37.0243472,28 44,18.5979797 44,7 L22,7 Z" id="Combined-Shape-Copy-89" fill="#FFDD95" transform="translate(33.000000, 17.500000) scale(1, -1) rotate(-180.000000) translate(-33.000000, -17.500000) "></path>
+        <rect id="Rectangle-464-Copy-5" fill="#FFAF40" x="18" y="4" width="30" height="3" rx="1"></rect>
+        <rect id="Rectangle-464-Copy-4" fill="#FFAF40" x="18" y="58" width="30" height="3" rx="1"></rect>
+        <path d="M33,34 L33,35.6509456" id="Path-128" stroke="#FFDD95" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M33,41.4033174 L33,43.0542631" id="Path-128-Copy" stroke="#FFDD95" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+</svg>

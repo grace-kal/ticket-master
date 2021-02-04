@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>timecapsuldone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M19,7 C19,21.9116882 27.2439533,34 32,34 C36.7560467,34 45,21.9116882 45,7 L19,7 Z" id="Combined-Shape-Copy-88" fill="#ECECEC"></path>
+        <path d="M19,31 C19,45.9116882 27.2439533,58 32,58 C36.7560467,58 45,45.9116882 45,31 L19,31 Z" id="Combined-Shape-Copy-87" fill="#ECECEC" transform="translate(32.000000, 44.500000) scale(1, -1) translate(-32.000000, -44.500000) "></path>
+        <path d="M21,37 C21,48.5979797 27.9756528,58 32,58 C36.0243472,58 43,48.5979797 43,37 L21,37 Z" id="Combined-Shape-Copy-86" fill="#FFDD95" transform="translate(32.000000, 47.500000) scale(1, -1) translate(-32.000000, -47.500000) "></path>
+        <rect id="Rectangle-464-Copy-3" fill="#FFAF40" x="17" y="4" width="30" height="3" rx="1"></rect>
+        <rect id="Rectangle-464-Copy-2" fill="#FFAF40" x="17" y="58" width="30" height="3" rx="1"></rect>
+    </g>
+</svg>

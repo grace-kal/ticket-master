@@ -1,0 +1,22 @@
+Navigation Bar.
+When first logged in, if the user is in role "Agent", they will see multicolored nav bar item "Agent Mode". This item is seen only by users in role "Agent" and "Admin"!
+When clicked on "Agent Mode" the link redirects the user to the Agent/Home/Index and the layout is switched to _AgentLayout rather than the default _Layout.
+There will be a change in all nav bar items when redirected trough the link for changing mode.
+
+In this guide we will look closely in the Agent Mode features! For more information on the Admin Mode, you can find the AdminGuide if you're authorized!
+
+----
+Home.
+In the Agent Home page you can find the Agent Panel, containing links for accessing all possible settings for this app allowed to Agent.
+
+----
+Companies.
+
+----
+Users.
+
+----
+Projects.
+
+----
+SendTickets and AnswerTickets.

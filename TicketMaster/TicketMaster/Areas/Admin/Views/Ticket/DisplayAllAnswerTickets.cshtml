@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "DisplayAllAnswerTickets";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>All Answer Tickets</h1>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+                        <input id="myInput" onkeyup="myFuction(1)" type="text" name="table_search" class="form-control float-right" placeholder="Search by Send ticket id...">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover ">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>ID</th>
+                            <th>Ticket Id</th>
+                            <th>Title of Send Ticket</th>
+                            <th>Description</th>
+                            <th>Send on</th>
+                            <th>Author </th>
+                            <th>Agent </th>
+                            
+
+
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var ticket in Model.AllTickets)
+                        {
+
+                            <tr>
+                                <td>@ticket.Id</td>
+                                <td>@ticket.TicketId</td>
+                                <td>@ticket.Title</td>
+                                <td>@ticket.Descripton</td>
+                                <td>@ticket.SendOn</td>
+                                <td>@ticket.Author.UserName</td>
+                                <td>@ticket.Agent.UserName</td>
+
+                                
+                                <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllSendTickets">Send Ticket Info</a></td>
+                                <td><a class="btn btn-primary" asp-area="Admin" asp-controller="Ticket" asp-action="EditTicket" asp-route-id="@ticket.Id">Edit Ticket</a></td>
+                                <td><a class="btn btn-danger " asp-area="Admin" asp-controller="Ticket" asp-action="DeleteTicket" asp-route-id="@ticket.Id">Delete Ticket </a></td>
+                            </tr>
+                                
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}

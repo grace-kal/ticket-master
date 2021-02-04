@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "AdminGuide";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Admin Guide</h1>
+
+@if (ViewBag.guideError == null)
+{
+    <div>
+        <h3 style="color:#fc5e3d;"> Navigation bar guide</h3>
+        <text>@ViewBag.navbarGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#f8723a;"> Home guide</h3>
+        <text>@ViewBag.homeGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#fca336;"> Users guide</h3>
+        <text>@ViewBag.userGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#fcb257;"> Companies guide</h3>
+        <text>@ViewBag.companyGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#fccc36;"> Projects guide</h3>
+        <text>@ViewBag.projectGuide</text>
+    </div>
+    <div>
+        <h3 style="color:#fce536;"> Tickets guide</h3>
+        <text>@ViewBag.ticketGuide</text>
+    </div>
+}
+else
+{
+    <div>
+        <text class="text-danger">
+            @ViewBag.guideError
+        </text>
+    </div>
+}
+

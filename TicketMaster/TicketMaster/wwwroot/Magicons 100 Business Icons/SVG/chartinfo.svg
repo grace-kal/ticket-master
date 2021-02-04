@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>chartinfo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-32" fill="#FFDD95" x="4" y="12" width="54" height="33"></rect>
+        <rect id="Rectangle-33" fill="#BD7575" x="1" y="8" width="60" height="4" rx="2"></rect>
+        <rect id="Rectangle-33-Copy" fill="#BD7575" x="1" y="45" width="60" height="4" rx="2"></rect>
+        <rect id="Rectangle-34" fill="#9D4C4C" x="29" y="49" width="4" height="11"></rect>
+        <rect id="Rectangle-35" fill="#BD7575" x="25" y="58" width="12" height="4"></rect>
+        <polyline id="Path-99-Copy-2" stroke="#4796E7" stroke-width="2" stroke-linecap="round" points="11 36.8691398 24.0717839 26.5619525 34.8383089 34.4549939 50.6269741 17.7788027"></polyline>
+        <circle id="Oval-142" fill="#4796E7" cx="24" cy="27" r="3"></circle>
+        <circle id="Oval-142-Copy" fill="#4796E7" cx="35" cy="34" r="3"></circle>
+        <circle id="Oval-142-Copy-2" fill="#4796E7" cx="51" cy="17" r="3"></circle>
+        <circle id="Oval-142-Copy-3" fill="#4796E7" cx="11" cy="36" r="3"></circle>
+    </g>
+</svg>

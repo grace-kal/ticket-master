@@ -1,0 +1,77 @@
+﻿@model TicketMaster.Areas.Agent.ViewModels.Company.CompanyProjectsViewModel
+@{
+    ViewData["Title"] = "CompanyProjects";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>Company Projects</h1>
+
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+                        <input type="text" id="myInput" onkeyup="myFuction(1)" name="table_search" class="form-control float-right" placeholder="Search by title...">
+
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover ">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Company ID</th>
+                            <th>Work Time</th>
+                            <th>Status</th>
+                            <th>Tickets</th>
+                            <th>Workers</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var project in Model.CompanyProjects)
+                        {
+                            <tr>
+                                <td>@project.Id</td>
+                                <td>@project.Title</td>
+                                <td>@project.Description</td>
+                                <td>Id:@project.CompanyId</td>
+                                <td>@project.WorkTime</td>
+                                @if (project.IsDeleted == false)
+                                {
+                                    <td class=" tag table-success">Active Project</td>
+                                }
+                                else
+                                {
+                                    <td class="tag table-danger"> Unactive Project</td>
+                                }
+                                <td><a class="btn btn-outline-dark" asp-area="Agent" asp-controller="Project" asp-action="ProjectIncomingTickets" asp-route-id="@project.Id">Incoming Tickets(@project.IncomingTickets.Count()) </a></td>
+                                <td><a class="btn btn-outline-dark" asp-area="Agent" asp-controller="Project" asp-action="ProjectWorkers" asp-route-id="@project.Id"> Workers(@project.Workers.Count())</a></td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+<a asp-area="Agent" asp-controller="Company" asp-action="MyCompany" asp-route-id="@User.Identity.Name">Back </a>
+
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}

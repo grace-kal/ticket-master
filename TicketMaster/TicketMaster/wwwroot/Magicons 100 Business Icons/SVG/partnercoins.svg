@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>partnercoins</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3,45.9597759 C3,43.7493282 4.78716697,41.7516292 6.96428975,41.5009519 L20,40 L33.0357102,41.5009519 C35.225127,41.7530447 37,43.7492282 37,45.9597759 L37,52.9574064 L3,52.9574064 L3,45.9597759 Z" id="Rectangle-90-Copy-23" fill="#5B68C0"></path>
+        <path d="M14,35.3164468 C10.9897907,32.470456 9,27.8615543 9,24 C9,17.9248678 13.9248678,13 20,13 C26.0751322,13 31,17.9248678 31,24 C31,27.8615543 29.0102093,32.470456 26,35.3164468 L26,42 C26,42 21.9325778,43.4486507 20,43.4486507 C18.0674222,43.4486507 14,42 14,42 L14,35.3164468 Z" id="Combined-Shape-Copy-79" fill="#FFDD95"></path>
+        <circle id="Oval-59-Copy-26" fill="#FFDD95" cx="11" cy="29" r="3"></circle>
+        <circle id="Oval-59-Copy-27" fill="#FFDD95" cx="29" cy="29" r="3"></circle>
+        <rect id="Rectangle-433-Copy-37" fill="#FFAF40" transform="translate(51.500000, 51.000000) scale(-1, 1) translate(-51.500000, -51.000000) " x="42" y="49" width="19" height="4" rx="1"></rect>
+        <rect id="Rectangle-433-Copy-38" fill="#FFDD95" transform="translate(51.500000, 46.000000) scale(-1, 1) translate(-51.500000, -46.000000) " x="42" y="44" width="19" height="4" rx="1"></rect>
+        <rect id="Rectangle-433-Copy-39" fill="#FFAF40" transform="translate(51.500000, 41.000000) scale(-1, 1) translate(-51.500000, -41.000000) " x="42" y="39" width="19" height="4" rx="1"></rect>
+        <circle id="Oval-154" fill="#FFAF40" cx="51.5" cy="25.5" r="9.5"></circle>
+        <text id="€-copy-2" font-family="MarkerFelt-Thin, Marker Felt" font-size="16" font-weight="300" fill="#FFDD95">
+            <tspan x="45" y="32">€</tspan>
+        </text>
+    </g>
+</svg>

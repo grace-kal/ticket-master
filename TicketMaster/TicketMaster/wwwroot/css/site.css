@@ -1,0 +1,110 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+*{
+    font-family:'Century Gothic','Segoe UI','Tahoma',' Geneva', 'Verdana', 'sans-serif';
+}
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: cornflowerblue;
+}
+a:hover{
+    color:gray;
+}
+/*overriding it to make it light blue*/
+.btn-primary {
+  color: #fff;
+  background-color: #94d5ea;
+  border:none; 
+}
+.btn-primary:hover{
+    background-color:#76c3dc; 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  margin-left:-200px;/*
+  margin-right:-150px; */
+  align-content:center;
+  align-items:center; 
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+nav ul li {
+    list-style: none;
+    position:relative;
+}
+/*nav ul li a{
+    display:block; 
+}*/
+nav ul li ul{
+    padding:0px; 
+    display:none;
+    position:absolute; 
+    background-color:#f3f3f3;
+}
+nav ul li:hover ul {
+    display:block;  
+}
+nav ul li ul li {
+    width:200px; 
+}
+nav ul li ul li :hover{
+    background-color:white;  /*light grey color*/
+}
+.table td, .table th {
+    padding: .15rem;
+}

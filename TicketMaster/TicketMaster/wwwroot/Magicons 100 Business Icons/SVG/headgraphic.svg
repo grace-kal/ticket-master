@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>headgraphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M31,5.0090877 C23.7758005,5.27211371 18,11.2115516 18,18.5 C18,25.9558441 24.0441559,32 31.5,32 C38.7884484,32 44.7278863,26.2241995 44.9909123,19 L31,19 L31,5.0090877 Z" id="Combined-Shape-Copy-107" fill="#80D25B"></path>
+        <path d="M33,3 C40.4008731,3.71068896 46.289311,9.59912685 47,17 L33,17 L33,3 Z" id="Combined-Shape-Copy-106" fill="#D650C7"></path>
+        <path d="M8,45.9138849 C8,43.7041591 9.77500008,41.6994337 11.9692715,41.4356406 L31.875,39.0425936 L51.7807285,41.4356406 C53.9728966,41.6991808 55.75,43.6992053 55.75,45.9138849 L55.75,62.0425936 L8,62.0425936 L8,45.9138849 Z" id="Rectangle-90-Copy-3" fill="#595959"></path>
+        <polygon id="Triangle-17" fill="#D8D8D8" points="32 61.8994949 24 49.8747533 40 49.8747533"></polygon>
+        <path d="M23.9659091,34.3604419 L39.7840909,34.3604419 L39.7840909,44.9058965 C39.7840909,44.9058965 34.4224889,46.8154815 31.875,46.8154815 C29.3275111,46.8154815 23.9659091,44.9058965 23.9659091,44.9058965 L23.9659091,34.3604419 Z" id="Combined-Shape-Copy-9" fill="#FFDD95"></path>
+        <polygon id="Triangle-17-Copy" fill="#D8D8D8" transform="translate(32.000000, 46.449747) scale(1, -1) translate(-32.000000, -46.449747) " points="32 49.8994949 24 43 40 43"></polygon>
+        <polygon id="Rectangle-416" fill="#4796E7" points="29.0005787 43 34.9921295 43 35.9921295 46 33.9800352 48 30.0417751 48 28.0005787 46"></polygon>
+        <polygon id="Rectangle-415" fill="#FFFFFF" points="24 40 31.9977085 43.1054189 24 49.9218378"></polygon>
+        <polygon id="Rectangle-415-Copy" fill="#FFFFFF" transform="translate(36.040675, 44.960919) scale(-1, 1) translate(-36.040675, -44.960919) " points="32 40 40.0813495 43.0606325 32 49.9218378"></polygon>
+        <polygon id="Rectangle-417" fill="#4796E7" points="30 48 34 48 35 62 29 62"></polygon>
+    </g>
+</svg>

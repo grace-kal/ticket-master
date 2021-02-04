@@ -1,0 +1,69 @@
+﻿@model TicketMaster.Areas.Agent.ViewModels.Project.UserProjectsViewModel
+@{
+    ViewData["Title"] = "MyProjects";
+    Layout = "~/Areas/Agent/Views/Shared/_AgentLayout.cshtml";
+}
+
+<h1>My Projects</h1>
+
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+                        <input id="myInput" onkeyup="myFuction(1)" type="text" name="table_search" class="form-control float-right" placeholder="Search by title...">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Workers</th>
+                            <th>Incoming Tickets</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var project in Model.UserProjects)
+                        {
+                        <tr>
+                            <td>@project.Id</td>
+                            <td>@project.Title</td>
+                            <td>@project.Description</td>
+                            <td><a class="btn btn-outline-dark " asp-area="Agent" asp-controller="Project" asp-action="ProjectWorkers" asp-route-id="@project.Id">Project Workers(@project.Workers.Count())</a></td>
+                            <td><a class="btn btn-outline-dark " asp-area="Agent" asp-controller="Project" asp-action="ProjectIncomingTickets" asp-route-id="@project.Id">Incoming Tickets(@project.IncomingTickets.Count())</a></td>
+                            @if (project.IsDeleted == false)
+                            {
+                                <td class=" tag table-success">Active Project</td>
+                            }
+                            else
+                            {
+                                <td class="tag table-danger"> Unactive Project</td>
+                            }
+                        </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+<a asp-area="Agent" asp-controller="Home" asp-action="Index">Back to Panel </a>
+
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}

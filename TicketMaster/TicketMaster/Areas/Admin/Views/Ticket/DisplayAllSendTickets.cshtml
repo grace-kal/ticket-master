@@ -1,0 +1,205 @@
+﻿@model TicketMaster.Areas.Admin.ViewModels.Ticket.DisplayAllTicketsViewModel
+@{
+    ViewData["Title"] = "DisplayAllTickets";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1> All Tickets</h1>
+
+
+<a class="btn btn-outline-dark" style="margin:10px;" asp-area="Admin" asp-controller="Ticket" asp-action="CreateTicket" asp-route-id="@User.Identity.Name">Create Ticket </a>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 300px;">
+                        <input id="myInput" onkeyup="myFuction(1)" type="text" name="table_search" class="form-control float-right" placeholder="Search by id...">
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover ">
+
+                    <thead class="text-nowrap">
+                        <tr>
+                            <th>Priority</th>
+                            <th>ID</th>
+                            <th>Send on</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Project ID</th>
+                            <th>Author</th>
+                            <th>Agent</th>
+                            <th>Answered</th>
+                            <th>Complete</th>
+                            <th>Status</th>
+                            <th>Answered Ticket</th>
+                            <th>Files</th>
+                            <th>Working Times</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+                        @foreach (var ticket in Model.AllTickets)
+                        {
+
+                            @if (ticket.Priority.ToString() == "High")
+                            {
+                                @if ((ticket.SendOn.Day - DateTime.Now.Day) >= 3 && !ticket.IsAnswered && !ticket.IsDeleted)
+                                {
+
+                                    <tr class="bg-danger">
+                                        <td>@ticket.Priority</td>
+                                        <td>@ticket.Id</td>
+                                        <td>@ticket.SendOn</td>
+                                        <td>@ticket.Title</td>
+                                        <td>@ticket.Descripton</td>
+                                        <td>@ticket.ProjectId</td>
+                                        <td>@ticket.Author.UserName</td>
+                                        <td>@ticket.Agent.UserName</td>
+
+                                        @if (ticket.IsAnswered)
+                                        {
+                                            <td class="text-success"> Answered</td>
+                                        }
+                                        else
+                                        {
+                                            <td> Not Answered</td>
+                                        }
+                                        @if (ticket.IsComplete)
+                                        {
+                                            <td class="text-success"> Complete</td>
+                                        }
+                                        else
+                                        {
+                                            <td>Not Complete</td>
+                                        }
+
+                                        @if (ticket.IsDeleted == false)
+                                        {
+                                            <td class=" tag table-success">Active Ticket</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="tag table-danger"> Unactive Ticket</td>
+                                        }
+                                        <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayTicketAnswerTicket" asp-route-id="@ticket.Id">Answered Ticket </a></td>
+                                        <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllTicketFiles" asp-route-id="@ticket.Id">Ticket Files(@ticket.FilesToUpload.Count()) </a></td>
+                                        <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllTicketWorkingTimes" asp-route-id="@ticket.Id">Ticket Working Times(@ticket.WorkingTimes.Count()) </a></td>
+                                        <td><a class="btn btn-outline-dark" asp-area="Admin" asp-controller="Ticket" asp-action="AnswerTicket" asp-route-id="@ticket.Id">Answer Ticket</a></td>
+                                        <td><a class="btn btn-primary" asp-area="Admin" asp-controller="Ticket" asp-action="EditTicket" asp-route-id="@ticket.Id">Edit Ticket</a></td>
+                                        <td><a class="btn btn-danger " asp-area="Admin" asp-controller="Ticket" asp-action="DeleteTicket" asp-route-id="@ticket.Id">Delete Ticket </a></td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td>@ticket.Priority</td>
+                                        <td>@ticket.Id</td>
+                                        <td>@ticket.SendOn</td>
+                                        <td>@ticket.Title</td>
+                                        <td>@ticket.Descripton</td>
+                                        <td>@ticket.ProjectId</td>
+                                        <td>@ticket.Author.UserName</td>
+                                        <td>@ticket.Agent.UserName</td>
+
+                                        @if (ticket.IsAnswered)
+                                        {
+                                            <td class="text-success"> Answered</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="text-danger"> Not Answered</td>
+                                        }
+                                        @if (ticket.IsComplete)
+                                        {
+                                            <td class="text-success"> Complete</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="text-danger">Not Complete</td>
+                                        }
+
+                                        @if (ticket.IsDeleted == false)
+                                        {
+                                            <td class=" tag table-success">Active Ticket</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="tag table-danger"> Unactive Ticket</td>
+                                        }
+                                        <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayTicketAnswerTicket" asp-route-id="@ticket.Id">Answered Ticket </a></td>
+                                        <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllTicketFiles" asp-route-id="@ticket.Id">Ticket Files(@ticket.FilesToUpload.Count()) </a></td>
+                                        <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllTicketWorkingTimes" asp-route-id="@ticket.Id">Ticket Working Times(@ticket.WorkingTimes.Count()) </a></td>
+                                        <td><a class="btn btn-outline-dark" asp-area="Admin" asp-controller="Ticket" asp-action="AnswerTicket" asp-route-id="@ticket.Id">Answer Ticket</a></td>
+                                        <td><a class="btn btn-primary" asp-area="Admin" asp-controller="Ticket" asp-action="EditTicket" asp-route-id="@ticket.Id">Edit Ticket</a></td>
+                                        <td><a class="btn btn-danger " asp-area="Admin" asp-controller="Ticket" asp-action="DeleteTicket" asp-route-id="@ticket.Id">Delete Ticket </a></td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td>@ticket.Priority</td>
+                                    <td>@ticket.Id</td>
+                                    <td>@ticket.SendOn</td>
+                                    <td>@ticket.Title</td>
+                                    <td>@ticket.Descripton</td>
+                                    <td>@ticket.ProjectId</td>
+                                    <td>@ticket.Author.UserName</td>
+                                    <td>@ticket.Agent.UserName</td>
+
+                                    @if (ticket.IsAnswered)
+                                    {
+                                        <td class="text-success"> Answered</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="text-danger"> Not Answered</td>
+                                    }
+                                    @if (ticket.IsComplete)
+                                    {
+                                        <td class="text-success"> Complete</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="text-danger">Not Complete</td>
+                                    }
+
+                                    @if (ticket.IsDeleted == false)
+                                    {
+                                        <td class=" tag table-success">Active Ticket</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="tag table-danger"> Unactive Ticket</td>
+                                    }
+                                    <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayTicketAnswerTicket" asp-route-id="@ticket.Id">Answered Ticket </a></td>
+                                    <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllTicketFiles" asp-route-id="@ticket.Id">Ticket Files(@ticket.FilesToUpload.Count()) </a></td>
+                                    <td><a class="btn btn-outline-info" asp-area="Admin" asp-controller="Ticket" asp-action="DisplayAllTicketWorkingTimes" asp-route-id="@ticket.Id">Ticket Working Times(@ticket.WorkingTimes.Count())</a></td>
+                                    <td><a class="btn btn-outline-dark" asp-area="Admin" asp-controller="Ticket" asp-action="AnswerTicket" asp-route-id="@ticket.Id">Answer Ticket</a></td>
+                                    <td><a class="btn btn-primary" asp-area="Admin" asp-controller="Ticket" asp-action="EditTicket" asp-route-id="@ticket.Id">Edit Ticket</a></td>
+                                    <td><a class="btn btn-danger " asp-area="Admin" asp-controller="Ticket" asp-action="DeleteTicket" asp-route-id="@ticket.Id">Delete Ticket </a></td>
+                                </tr>
+                            }
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+@section Scripts {
+    <script>
+
+        $(document).ready(myFuction(1));
+    </script>
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>papertransfer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,48 L32,34" id="Line-Copy-449" stroke="#FFAF40" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M12,49 L12,43.9999433 L12,43.9999433 C12,41.7908356 13.7964248,40 16.0000255,40 L47.9999745,40 C50.2091276,40 52,41.7996535 52,43.9999433 L52,49" id="Rectangle-495-Copy-2" stroke="#FFAF40" stroke-width="2" stroke-linecap="round"></path>
+        <rect id="Rectangle-494-Copy-2" fill="#D8D8D8" x="7" y="5" width="50" height="31"></rect>
+        <path d="M19,15 L45.0192237,15" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M19,25 L45.0192237,25" id="Line-Copy-452" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M19,20 L45.0192237,20" id="Line-Copy-451" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <rect id="Rectangle-496-Copy-8" fill="#5B68C0" x="7" y="49" width="10" height="9"></rect>
+        <rect id="Rectangle-496-Copy-7" fill="#22BA8E" x="47" y="49" width="10" height="9"></rect>
+        <rect id="Rectangle-496-Copy-6" fill="#FFAF40" x="27" y="49" width="10" height="9"></rect>
+    </g>
+</svg>

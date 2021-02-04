@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>earthglobe</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18" cy="18" r="18"></circle>
+    </defs>
+    <g id="Business-(100)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-186" stroke="#D650C7" stroke-width="2" stroke-linecap="round" cx="7" cy="32" r="4"></circle>
+        <circle id="Oval-186-Copy" stroke="#D650C7" stroke-width="2" stroke-linecap="round" cx="57" cy="32" r="4"></circle>
+        <circle id="Oval-186-Copy-2" fill="#80D25B" cx="32" cy="7" r="5"></circle>
+        <circle id="Oval-186-Copy-3" fill="#80D25B" cx="32" cy="57" r="5"></circle>
+        <g id="Path-7-Copy" transform="translate(14.000000, 14.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#B4DFFB" xlink:href="#path-1"></use>
+            <path d="M27.4995846,12.7538974 C27.4995846,12.7538974 23.1285694,10.9700507 21.8266173,11.861974 C20.5246651,12.7538974 21.2201882,16.9654295 21.2201882,16.9654295 C21.2201882,16.9654295 19.2798118,19.7463344 20.25,21.2089567 C21.2201882,22.671579 23.9151553,22.168808 25.4292591,23.4589466 C26.943363,24.7490852 26.3142913,27.0645419 26.3142913,27.0645419 L25.9480711,29.7678769 C25.9480711,29.7678769 30.0035659,27.9505584 31.1721233,25.3323794 C32.3406807,22.7142004 31.9621547,18.6094825 31.9621547,18.6094825 L34.3292957,16.4633535 L36.4108786,9.71288388 L29.106228,7.35052093 L28.3014296,3.75 L23.0778696,5.23063215 L22.6058196,9.15765453 L26.6178479,10.4860101 L27.4995846,12.7538974 Z" id="Path-7" fill="#22BA8E" mask="url(#mask-2)"></path>
+            <path d="M-1.35808945,15.0302297 C-1.35808945,15.0302297 0.119366474,14.0882415 0.316563573,14.0732515 C1.82943665,13.95825 7.10128473,14.2798648 8.47967433,12.2815326 C10.0377316,10.0227256 11.3365045,7.03166932 11.3365045,7.03166932 L11.2843185,4.73031431 L3.13766281,2.73102683 L-1.35808945,15.0302297 Z" id="Path-9" fill="#22BA8E" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
